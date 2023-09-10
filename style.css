@@ -1,0 +1,41 @@
+.main {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+.divPost {
+  margin: 10px 20px;
+  padding: 10px;
+}
+.divComments {
+  margin: 10px;
+  padding: 3px;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 14px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+button:active {
+  background-color: #216a94;
+}
+.color {
+  background-color: darkorange;
+}
+.color:hover {
+  background-color: darkorange;
+}
